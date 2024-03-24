@@ -24,15 +24,18 @@ We performed univariate data analysis to understand the distribution of individu
 We split the data into training and testing datasets, then  pivoted the ratings into movie features.
 ## Modelling
 We performed the following models:
+* **1. Memory-based Collaborative Filtering**
 * **a baseline using a dummy model**
 * **user-based collaborative filtering**
 * **item-based collaborative filtering**
-* **singular value decomposition**
+*  **2. Model-based Collaborative Filtering**
+* **surprise package(singular value decomposition)**
 * **K nearest neighbors**
 
 
 
 ## Evaluation
+We evaluated the performances of the above models by using their RMSE and MAE score. 
 ## Modelling Results
  
  ## Conclusion and Recommendations
