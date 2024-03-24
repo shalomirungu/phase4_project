@@ -25,19 +25,22 @@ We split the data into training and testing datasets, then  pivoted the ratings 
 ## Modelling
 We performed the following models:
 * **1. Memory-based Collaborative Filtering**
-* **a baseline using a dummy model**
 * **user-based collaborative filtering**
 * **item-based collaborative filtering**
 *  **2. Model-based Collaborative Filtering**
 * **surprise package(singular value decomposition)**
 * **K nearest neighbors**
-
-
-
 ## Evaluation
-We evaluated the performances of the above models by using their RMSE and MAE score. 
+We evaluated the performances of the above models by using their RMSE and MAE scores.The lower the MAE and the RMSE scores, the better performing the model is. 
 ## Modelling Results
- 
+ **user-based collaborative filtering**:
+ We checked for user to user similarity using cosine similarity, with the value 0 being least similar and 1 being most similar. The RMSE and MAE for this model were 1.555 and 1.2026 respectively. 
+ **item-based collaborative filtering**:
+The data was first normalized using MinMaxScaler, and the RMSE for this model was 2.5194 and the MAE is 2.2235
+ **surprise package(singular value decomposition)**:
+ The RMSE and MAE for this model is 0.8821 and 0.4973 respectively. 
+ **K nearest neighbors**:
+ Its RMSE and MAE were 0.4120 and 0.1572. GridSearch hyperparameter tuning was applied, and these scores remained the same. 
  ## Conclusion and Recommendations
 
 ## Necessary Links
