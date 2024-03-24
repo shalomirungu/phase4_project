@@ -15,5 +15,6 @@ The data was sourced from MovieLens, and has been merged to have a total of 1008
 ## Data Preparation
 We prepared the data by merging datasets, getting its statistical summary, checked for duplicated and null values.
 ## Exploratory Data Analysis
-We did a plot to understand the genre distribution, 
+We did visualization using plots to understand the genre distribution, rating frequency, and that of highly and lowly rated movies.
+
 
