@@ -52,5 +52,5 @@ The data was first normalized using MinMaxScaler, and the RMSE for this model wa
  2. KNN and SVD collaborative filtering should be used and frequently updated to enhance the system performance.
  3. The recommendation system should be regularly updated for new user ratings and movie data to improve relevance of the movies recommended to different users. 
 ## Necessary Links
-* **Jupyter Notebook** [Notebook]()
+* **Jupyter Notebook** [Notebook](Phase4_Project.ipynb)
 * **Presentation** [Powerpoint Presentation]()
