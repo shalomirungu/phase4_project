@@ -18,6 +18,7 @@ We prepared the data by merging datasets, getting its statistical summary, check
 We did visualization using plots to understand the genre distribution, rating frequency, and that of highly and lowly rated movies.
 ## Univariate Data Analysis
 We performed univariate data analysis to understand the distribution of individual features in the dataset. 
+## Modelling
 
 ## Necessary Links
 * **Jupyter Notebook** [Notebook]()
