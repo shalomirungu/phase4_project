@@ -45,7 +45,10 @@ The data was first normalized using MinMaxScaler, and the RMSE for this model wa
  Its RMSE and MAE were 0.4120 and 0.1572. GridSearch hyperparameter tuning was applied, and these scores remained the same. For the model-based filtering, this had the lowest RMSE and MAE hence the better performing model.   
  
  ## Conclusion and Recommendations
-
+ User-based collaborative filtering outperforms item-based collaborative filtering in terms of both MAE and RMSE. KNN significantly outperform memory-based collaborative filtering methods in terms of MAE and RMSE. Among the two, KNN has the lowest MAE and RMSE, indicating that it is the better-performing model for this dataset.
+ 1. The recommendation system should be thoroughly worked on to boost accuracy inorder to maintain users' trust and engagement.
+ 2. KNN and SVD collaborative filtering should be used and frequently updated to enhance the system performance.
+ 3. The recommendation system should be regularly updated for new user ratings and movie data to improve relevance of the movies recommended to different users. 
 ## Necessary Links
 * **Jupyter Notebook** [Notebook]()
 * **Presentation** [Powerpoint Presentation]()
