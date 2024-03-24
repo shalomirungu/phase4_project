@@ -2,7 +2,7 @@
 ## **Authors;** Vivian Maiyo, Josephine Wanjiru, Shalom Irungu, Brian Kanyotu, Stella Ndegwa, and Diana Mbuvi
 ## Project Overview
 ### Problem Statement
-
+MovieLens is a web-based recommender system that proposes movies to its users. It is faced with the task of improving its services by recommending movies to users based on their preferences in terms of genres and based on the best-rated movies. 
 
 
 #### Objectives
