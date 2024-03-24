@@ -21,7 +21,7 @@ We did visualization using plots to understand the genre distribution, rating fr
 ## Univariate Data Analysis
 We performed univariate data analysis to understand the distribution of individual features in the dataset. 
 #### Data Splitting
-We split the data into training and testing datasets
+We split the data into training and testing datasets, then  pivoted the ratings into movie features.
 ## Modelling
 
 ## Evaluation
