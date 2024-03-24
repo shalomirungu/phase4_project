@@ -53,4 +53,4 @@ The data was first normalized using MinMaxScaler, and the RMSE for this model wa
  3. The recommendation system should be regularly updated for new user ratings and movie data to improve relevance of the movies recommended to different users. 
 ## Necessary Links
 * **Jupyter Notebook** [Notebook](Phase4_Project.ipynb)
-* **Presentation** [Powerpoint Presentation]()
+* **Presentation** [Powerpoint Presentation](Presentation Phase 4.pptm)
