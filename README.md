@@ -20,7 +20,10 @@ We did visualization using plots to understand the genre distribution, rating fr
 ![2024-03-24](https://github.com/shalomirungu/phase4_project/assets/149403427/266ea017-d88c-46d5-96f4-cf7f39be2b14)
 ## Univariate Data Analysis
 We performed univariate data analysis to understand the distribution of individual features in the dataset. 
+#### Data Splitting
+We split the data into training and testing datasets
 ## Modelling
+
 ## Evaluation
 ## Modelling Results
  
