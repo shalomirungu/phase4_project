@@ -25,12 +25,11 @@ We split the data into training and testing datasets, then  pivoted the ratings 
 ## Modelling
 We performed the following models:
 * **a baseline using a dummy model**
-* ****
-* ****
-* ****
-* ****
-* ****
-* ****
+* **user-based collaborative filtering**
+* **item-based collaborative filtering**
+* **singular value decomposition**
+* **K nearest neighbors**
+
 
 
 ## Evaluation
