@@ -34,13 +34,13 @@ We performed the following models:
 We evaluated the performances of the above models by using their RMSE and MAE scores.The lower the MAE and the RMSE scores, the better performing the model is. 
 ## Modelling Results
  **user-based collaborative filtering**:
- We checked for user to user similarity using cosine similarity, with the value 0 being least similar and 1 being most similar. The RMSE and MAE for this model were 1.555 and 1.2026 respectively. 
+ We checked for user to user similarity using cosine similarity, with the value 0 being least similar and 1 being most similar. The RMSE and MAE for this model were 1.555 and 1.2026 respectively. For the memory-based filtering, this had the lowest MAE and RMSE, hence being the best performing model.
  **item-based collaborative filtering**:
 The data was first normalized using MinMaxScaler, and the RMSE for this model was 2.5194 and the MAE is 2.2235
  **surprise package(singular value decomposition)**:
  The RMSE and MAE for this model is 0.8821 and 0.4973 respectively. 
  **K nearest neighbors**:
- Its RMSE and MAE were 0.4120 and 0.1572. GridSearch hyperparameter tuning was applied, and these scores remained the same. 
+ Its RMSE and MAE were 0.4120 and 0.1572. GridSearch hyperparameter tuning was applied, and these scores remained the same. For the model-based filtering, this had the lowest RMSE and MAE hence the better performing model.   
  ## Conclusion and Recommendations
 
 ## Necessary Links
