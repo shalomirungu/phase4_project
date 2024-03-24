@@ -19,6 +19,10 @@ We did visualization using plots to understand the genre distribution, rating fr
 ## Univariate Data Analysis
 We performed univariate data analysis to understand the distribution of individual features in the dataset. 
 ## Modelling
+## Evaluation
+## Modelling Results
+ 
+ ## Conclusion and Recommendations
 
 ## Necessary Links
 * **Jupyter Notebook** [Notebook]()
