@@ -12,5 +12,8 @@
 * To **create a recommendation system that utilizes collaborative filtering to analyze user ratings.**
 ## Data
 The data was sourced from MovieLens, and has been merged to have a total of 100836 rows and 6 columns.
-
+## Data Preparation
+We prepared the data by merging datasets, getting its statistical summary, checked for duplicated and null values.
+## Exploratory Data Analysis
+We did a plot to understand the genre distribution, 
 
