@@ -23,6 +23,7 @@ We performed univariate data analysis to understand the distribution of individu
 We split the data into training and testing datasets, then  pivoted the ratings into movie features.
 ## Modelling
 We performed the following models:
+
  **1. Memory-based Collaborative Filtering**
 * **user-based collaborative filtering**
 * **item-based collaborative filtering**
